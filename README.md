@@ -6,16 +6,16 @@ This plugin adds the possibility to open WordPress's media iframe and returns th
 
 ## Usage
 
-	```javascript
-	$('.nw_ncs_set_post_pdf_url').nw_add_media({
-        trigger: "click",
-        title: "Insert Media",
-        button_text: "Insert into page",
-        functionAfter: function(attachment) {
-            console.log(attachment);
-        }
-    });
-	```
+```javascript
+$('.nw_ncs_set_post_pdf_url').nw_add_media({
+    trigger: "click",
+    title: "Insert Media",
+    button_text: "Insert into page",
+    functionAfter: function(attachment) {
+        console.log(attachment);
+    }
+});
+```
 
 ## Options
 
