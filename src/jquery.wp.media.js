@@ -1,6 +1,6 @@
 // the semi-colon before function invocation is a safety net against concatenated
 // scripts and/or other plugins which may not be closed properly.
-; // jshint ignore:line
+; // jshint ignore:line, curly: false */
 (function($, window, document, undefined) {
 
 	"use strict";
@@ -20,9 +20,7 @@
 			trigger: "click",
 			title: "Insert Media",
 			button_text: "Insert into page",
-			functionAfter: function(attachment) {
-				console.log(attachment);
-			}
+			functionAfter: null
 		};
 
 	// The actual plugin constructor
@@ -85,7 +83,9 @@
 				var attachment = modal.state().get("selection").first().toJSON();
 
 				// call our constructor custom callback function
-				option.functionAfter.call(this, attachment);
+				if (option.functionAfter) {
+					option.functionAfter.call(this, attachment);
+				}
 
 			});
 
