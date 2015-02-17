@@ -1,0 +1,33 @@
+{
+	"name": "jquery-wp-media",
+	"title": "jQuery WordPress Media",
+	"description": "Easyly add and open custom media popups in WordPress admin.",
+	"keywords": [
+		"jquery",
+		"wordpress",
+		"media",
+		"admin"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Abdessamad Idrissi",
+		"email": "abdel@numediaweb.com",
+		"url": "https://github.com/numediaweb"
+	},
+	"maintainers": [{
+		"name": "Abdessamad Idrissi",
+		"email": "abdel@numediaweb.com",
+		"url": "https://github.com/numediaweb"
+	}],
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://numediaweb.mit-license.org/"
+	}],
+	"bugs": "https://github.com/numediaweb/jquery-wp-media/issues",
+	"homepage": "http://numediaweb.com",
+	"docs": "https://github.com/numediaweb/jquery-wp-media/#readme",
+	"download": "https://github.com/numediaweb/jquery-wp-media/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

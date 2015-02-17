@@ -1,0 +1,18 @@
+{
+	"name": "jquery-wp-media",
+	"version": "1.0.0",
+	"homepage": "http://numediaweb.com",
+	"authors": [
+		"Abdessamad Idrissi <abdel@numediaweb.com>"
+	],
+	"description": "Adds possibility to open WordPress's media iframe and attach returned values to fields.",
+	"main": "src/jquery.wp.media.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"boilerplate",
+		"jquery-plugin",
+		"jquery-boilerplate"
+	],
+	"license": "MIT"
+}
