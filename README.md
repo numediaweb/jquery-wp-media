@@ -4,6 +4,13 @@
 
 This plugin adds the possibility to open WordPress's media iframe and returns the attached media.
 
+## Install
+
+To get going with the plugin you can:
+
+  * [Download the latest release](https://github.com/numediaweb/jquery-wp-media/archive/master.zip)
+  * [Install with Bower](http://bower.io): `bower install jquery-wp-media`
+
 ## Usage
 
 ```javascript
